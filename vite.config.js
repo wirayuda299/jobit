@@ -9,8 +9,5 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: './tests/setup.js',
     testMatch: ['./tests/**/*.test.js']
-  },
-  build: {
-    outDir: 'public'
   }
 });
